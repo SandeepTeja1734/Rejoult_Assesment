@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/6dd66e9bfe.js"></script>
+</head>
+
+<body>
+    <div class="containefluid">
+        <div class="row">
+            <div class="large col-lg-3 d-none d-lg-block">
+                <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=1?component_id=4d922ade-2482-445c-b61c-e09c39895d29&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" class="Image4 mt-4" />
+                <ul class="unorder" style="margin-top:15px">
+                    <div class="top4 impp bg-white">
+                        <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=3370d73b-d80f-408f-bf4c-3ee109fc5856&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" />
+                        <h1 class="head2">Wallet</h1>
+                    </div>
+                    <div class="top4 impp m-1">
+                        <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=1d2dee45-0510-4a6c-8867-f74e35ab51e8&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" />
+                        <h1 class="head2 text-white">Wolfpacks</h1>
+                    </div>
+                    <div class="top4 impp m-1">
+                        <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=30894113-f90b-49e0-af69-db2e0427e0ca&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" />
+                        <h1 class="head2 text-white">Portfolio</h1>
+                    </div>
+                    <div class="top4 impp m-1">
+                        <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=9ab06e63-4a96-4a18-9e5d-c61447892003&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" />
+                        <h1 class="head2 text-white">Transparency</h1>
+                    </div>
+                    <div class="top4 impp m-1">
+                        <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=c8eb4479-89a3-4fe8-b357-3f4136b85aa1&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" />
+                        <h1 class="head2 text-white">All Properties</h1>
+                    </div>
+                </ul>
+                <div class="p-3 innerCard" id="cantainer1">
+                    <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=74925fcd-c5cf-4615-bc9c-e4282003b3ae&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" onclick="disapper()" class="laste" />
+                    <div>
+                        <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=4c2fb18b-b77a-45c4-81ad-0a9376d202c2&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" class="ml-5 mt-2 mb-2" />
+                    </div>
+                    <p class="text-white">Your account is not yet activated to self Freedom Coin.please specify your Payapal payments address to activate your account.</p>
+                    <button class="btn btn-warning">Click here</button>
+                </div>
+            </div>
+            <div class="bg3 pt-2 pr-5 col-lg-9 d-none d-lg-block">
+                <div class="d-flex flex-row justify-content-between">
+                    <div class="d-flex flex-row">
+                        <p class="para">Overveiw</p>
+                        <p class="text-secondary para1 ml-2 mr-2">Savings</p>
+                        <p class="text-secondary para1">Investments</p>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=31ab3544-5f0c-4f8f-b7c2-940f90d7207f&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" style="height:30px" class="ml-3 mr-3 mt-2" />
+                        <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=4c101b99-b068-4604-aad7-ac80e1bada69&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" style="height:30px" class="mt-2 mr-3" />
+                        <div class="left">
+                            <div class="background">
+                                <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=be77c644-ba9a-490e-97ed-ecb4a7201675&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" class="size" />
+                            </div>
+                            <p class="Wallet_style mt-1 ml-2">Investor</p>
+                        </div>
+                        <div class="vertical ml-3 mr-3"></div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz0leYYT_7byhoV9cXeAxLwl4wKnwRqTYNwg&usqp=CAU" class="Image2 mr-3" onclick="display('section3')" />
+                        <div class="dropdown">
+                            <button class="btn btn-white dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Robert Downey
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <button class="dropdown-item" type="button">Profile</button>
+                                <button class="dropdown-item" type="button">Update Account</button>
+                                <button class="dropdown-item" type="button">Log Out</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="line" />
+                <div class="d-flex flex-row">
+                    <h1 class="head mr-5">Total Balance <span><img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=0829ac6e-c219-4b8b-ab8f-46690c34657d&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" /> : $60.00</h1>
+                    <div class="d-flex flex-row">
+                        <h1 class="head ml-5">Wallet Address</h1>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-white" data-toggle="modal" data-target="#exampleModal">
+                            <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=7ee8bfab-3eda-4eb8-b0a7-f2b7cb9c54fa&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" class="ml-2" />
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body m-auto">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRehZALqpyxFN1UBdfPcmGvOeJ2B9VWn2Ey5A&usqp=CAU" class="" />
+                                    </div>
+                                    <div class="modal-footer m-auto">
+                                        <h1 class="head">Scan QR</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-row">
+                    <div class="card m-2 shadow sizing">
+                        <h5 class="card-header bg">Checking</h5>
+                        <div class="card-body">
+                            <div class="top2" style="width:200px">
+                                <p class="text-secondary para1">Cash</p>
+                                <p class="text-secondary para1">:</p>
+                                <p class="para" style="text-decoration:none">$20.00</p>
+                            </div>
+                            <div style="display:flex;flex-direction:column">
+                                <div class="top4 gap">
+                                    <h1 class="text-secondary para3">Buy Coins</h1>
+                                    <p class="text-secondary para1" style="align-self:flex-start"><i class="fa fa-trademark" aria-hidden="true"></i></p>
+                                </div>
+                                <div class="top4" style="margin-top:0px">
+                                    <select class="form-control" style="width:100px">
+                                        <option>0</option>
+                                        <option>10000</option>
+                                    </select>
+                                    <button class="btn btn-primary" style="margin-left:10px;width:100px">Buy</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card m-2 shadow sizing" style="height:200px flex-shrink:1">
+                        <h5 class="card-header bg">Transfers</h5>
+                        <div class="card-body">
+                            <div class="top2" style="width:200px">
+                                <p class="text-secondary para1">paypal</p>
+                                <p class="text-secondary para1">Bank Account</p>
+                            </div>
+                            <div class="top4" style="margin-bottom:0px">
+                                <h1 class="text-secondary para3">Sell Coins</h1>
+                                <p class="text-secondary para1" style="align-self:flex-start"><i class="fa fa-trademark" aria-hidden="true"></i></p>
+                            </div>
+                            <div class="top4" style="margin-top:0px">
+                                <select class="form-control" style="width:100px">
+                                    <option>0</option>
+                                    <option>10000</option>
+                                </select>
+                                <button class="btn btn-primary" style="margin-left:10px;width:100px">Sell</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column card w-50 p-3">
+                        <h1 class="head">Available Assets</h1>
+                        <div class="can d-flex flex-row">
+                            <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=141a5375-8ddc-46ee-9cc1-e99586764086&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" class="Image3 shadow" />
+                            <div class="d-flex flex-column ml-2 mt-2">
+                                <h1 class="head" style="text-align:left">Potential Covid-19 Cure: Clinical Trial</h1>
+                                <p class="para2" style="text-align:left">Description:</p>
+                                <p class="para2 mt-0" style="text-align:left">A well known, safe, generic medication that has been used for decades has been shown to....</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <div class="card m-2 shadow sizing1">
+                        <h5 class="card-header bg">Savings</h5>
+                        <div class="card-body">
+                            <div class="top2" style="width:200px">
+                                <p class="text-secondary para1">Invested</p>
+                                <p class="text-secondary para1">: <span class="para" style="text-decoration:none">$20.00</span></p>
+                            </div>
+                            <div class="top2" style="width:200px">
+                                <h1 class="text-secondary para1">Total Payout <span><i class="fa fa-info-circle text-secondary" aria-hidden="true"></i></span></h1>
+                                <p class="text-secondary para1">:</p>
+                                <p class="para" style="text-decoration:none">$20.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card m-2 shadow sizing1">
+                        <h5 class="card-header bg">Investments</h5>
+                        <div class="card-body">
+                            <div class="top2" style="width:200px">
+                                <p class="text-secondary para1">Invested</p>
+                                <p class="text-secondary para1">:</p>
+                                <p class="para" style="text-decoration:none">$20.00</p>
+                            </div>
+                            <div class="top2" style="width:200px">
+                                <h1 class="text-secondary para1">Contributed</h1>
+                                <p class="text-secondary para1">:</p>
+                                <p class="para" style="text-decoration:none">$20.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column card w-50 p-3">
+                        <div class="can d-flex flex-row">
+                            <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=09206ba6-d322-49ac-81f2-c6cb7a12c590&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" class="Image3 shadow" />
+                            <div class="d-flex flex-column ml-2 mt-2">
+                                <h1 class="head" style="text-align:left">Missson <i class="fa fa-usd ml-2 text-success" aria-hidden="true"></i></h1>
+                                <p class="para2" style="text-align:left">Description:</p>
+                                <p class="para2 mt-0" style="text-align:left">Ownership in Minuteman is decentralized and distributed democratically across its base of...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <div class="d-flex flex-column">
+                        <h1 class="head m-2">Recent Transections</h1>
+                        <div class="d-flex flex-row justify-content-between m-2 w-100">
+                            <p class="para1">Cash</p>
+                            <p class="para1">Transections</p>
+                            <p class="para1">Amount</p>
+                        </div>
+                        <div class="w-100 mt-0">
+                            <hr />
+                        </div>
+                        <div class="d-flex flex-row m-2 w-100">
+                            <p class="para1">09 Mar 2020</p>
+                            <p class="para1" style="margin-left:10px">20922 Avalon Drive(Jon Hea..) <span class="head" style="font-style:italic;align-self:flex-end">-Dividend</span></p>
+                            <p class="para1 text-success" style="margin-left:30px">$10.00</p>
+                        </div>
+                        <div class="d-flex flex-row m-2 w-100">
+                            <p class="para1">09 Mar 2020</p>
+                            <p class="para1" style="margin-left:10px">20922 Avalon Drive(Jon Hea..) <span class="head" style="font-style:italic;align-self:flex-end">-Purchase</span></p>
+                            <p class="para1" style="margin-left:20px">-$1000.00</p>
+                        </div>
+                        <div class="d-flex flex-row m-2 w-100">
+                            <p class="para1">09 Mar 2020</p>
+                            <p class="para1" style="margin-left:15px">Freedom Coin <span class="head" style="font-style:italic;align-self:flex-end">-Deposit</span></p>
+                            <p class="para1 text-success" style="margin-left:140px">$10.00</p>
+                        </div>
+                        <div class="d-flex flex-row m-2 w-100">
+                            <p class="para1">09 Mar 2020</p>
+                            <p class="para1" style="margin-left:10px">Freedom Coin <span class="head" style="font-style:italic;align-self:flex-end">-Withdrawal</span></p>
+                            <p class="para1" style="margin-left:120px">-$500.00</p>
+                        </div>
+                        <div class="d-flex flex-row m-2 w-100">
+                            <p class="para1">09 Mar 2020</p>
+                            <p class="para1" style="margin-left:10px">Profit Wolfpack (Alpha Name)<span class="head" style="font-style:italic;align-self:flex-end">-Purchase</span></p>
+                            <p class="para1" style="margin-left:30px">-$400.00</p>
+                        </div>
+                        <div class="d-flex flex-row m-2 w-100">
+                            <p class="para1">09 Mar 2020</p>
+                            <p class="para1" style="margin-left:10px">Non Profit Wolfpack (Alpha N..)<span class="head" style="font-style:italic;align-self:flex-end">-Contribute</span></p>
+                            <p class="para1" style="margin-left:10px">-$400.00</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column card last w-50 p-3">
+                        <div class="can d-flex flex-row">
+                            <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=2de429f8-c7eb-4152-a815-c87fad4a5f98&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" class="Image3 shadow" />
+                            <div class="d-flex flex-column ml-2 mt-2">
+                                <h1 class="head" style="text-align:left">20922 Avalon Drive</h1>
+                                <p class="para2" style="text-align:left">Address:</p>
+                                <p class="para2 mt-0" style="text-align:left">8801 Holly Road Tullahoma, TN 37388</p>
+                            </div>
+                        </div>
+                        <div class="w-100">
+                            <hr />
+                        </div>
+
+                        <div class="can d-flex flex-row">
+                            <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=f5a3cdef-4d06-4c86-b4af-75d2fd76366f&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" class="Image3 shadow" />
+                            <div class="d-flex flex-column ml-2 mt-2">
+                                <h1 class="head" style="text-align:left">17456 Eastgate Drive</h1>
+                                <p class="para2" style="text-align:left">Address:</p>
+                                <p class="para2 mt-0" style="text-align:left">23 North Briawood Avenue Williamsburg, VA 23185</p>
+                            </div>
+                        </div>
+                        <h1 class="head text-right">View More</h1>
+                        <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=1a9d48c8-4301-4f78-a6e9-9471589172b9&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" class="ml-auto mt-5" style="width:60px;height:60px" />
+                    </div>
+                </div>
+                <h1 class="head text-center">View More</h1>
+            </div>
+        </div>
+    </div>
+    <div class="small" id="section1">
+        <nav class="mainNav fixed-top">
+            <nav class="top">
+                <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=b12661b9-68fe-428d-ab68-aa8be37d8052&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" class="Image" />
+                <div class="mid">
+                    <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=31ab3544-5f0c-4f8f-b7c2-940f90d7207f&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" style="height:20px" class="ml-3 mr-3 mt-1" />
+                    <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=c4d5c241-fbca-43eb-97f3-f8b2dfb44f9f&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" style="height:20px" class="mt-1 mr-2" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz0leYYT_7byhoV9cXeAxLwl4wKnwRqTYNwg&usqp=CAU" class="Image2" onclick="display('section3')" />
+                </div>
+            </nav>
+            <nav class="top1 shadow fixed">
+                <div class="right">
+                    <i class="fa fa-align-left icon2" aria-hidden="true" onclick="display('section2')"></i>
+                    <p class="Wallet_style">Wallet</p>
+                </div>
+                <div class="left">
+                    <div class="background">
+                        <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=be77c644-ba9a-490e-97ed-ecb4a7201675&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" class="size" />
+                    </div>
+                    <p class="Wallet_style mt-1 ml-2">Investor</p>
+                </div>
+            </nav>
+        </nav>
+        <div class="top2 visible">
+            <p class="para">Overveiw</p>
+            <p class="text-secondary para1">Savings</p>
+            <p class="text-secondary para1">Investments</p>
+        </div>
+        <div style="width:100px;margin-top:0px">
+            <hr class="line" />
+        </div>
+
+        <div class="top2 marginer">
+            <div>
+                <h1 class="head">Total Balance <span><i class="fa fa-info-circle text-secondary" aria-hidden="true"></i></span> :</h1>
+                <h1 class="head">$60.00</h1>
+            </div>
+            <div class="mid2">
+                <h1 class="head">Wallet Address</h1>
+                <!-- Trigger the modal with a button -->
+                <button type="button" class="btn btn-white" data-toggle="modal" style="width:50px;height:30px" data-target="#myModal">
+                    <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=3154634a-8c43-46e1-bb0d-c5a9244742f9&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" style="width:30px;height:20px" />
+                </button>
+                <div id="myModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRehZALqpyxFN1UBdfPcmGvOeJ2B9VWn2Ey5A&usqp=CAU" class="w-50" />
+                            </div>
+                            <div class="modal-footer">
+                                <h1 class="head m-auto">Scan QR</h1>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card m-2 shadow">
+            <h5 class="card-header bg">Checking</h5>
+            <div class="card-body">
+                <div class="top2" style="width:200px">
+                    <p class="text-secondary para1">Cash</p>
+                    <p class="text-secondary para1">:</p>
+                    <p class="para" style="text-decoration:none">$20.00</p>
+                </div>
+                <div style="display:flex;flex-direction:column">
+                    <div class="top4 gap">
+                        <h1 class="text-secondary para3">Buy Coins</h1>
+                        <p class="text-secondary para1" style="align-self:flex-start"><i class="fa fa-trademark" aria-hidden="true"></i></p>
+                    </div>
+                    <div class="top4" style="margin-top:0px">
+                        <select class="form-control" style="width:100px">
+                            <option>0</option>
+                            <option>10000</option>
+                        </select>
+                        <button class="btn btn-primary" style="margin-left:10px;width:100px">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card m-2 shadow">
+            <h5 class="card-header bg">Savings</h5>
+            <div class="card-body">
+                <div class="top2" style="width:200px">
+                    <p class="text-secondary para1">Invested</p>
+                    <p class="text-secondary para1">: <span class="para" style="text-decoration:none">$20.00</span></p>
+                </div>
+                <div class="top2" style="width:200px">
+                    <h1 class="para1 text-secondary">Total Payout <span><i class="fa fa-info-circle text-secondary" aria-hidden="true"></i></span></h1>
+                    <p class="text-secondary para1">:</p>
+                    <p class="para" style="text-decoration:none">$20.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="card m-2 shadow" style="height:200px flex-shrink:1">
+            <h5 class="card-header bg">Transfers</h5>
+            <div class="card-body">
+                <div class="top2" style="width:200px">
+                    <p class="text-secondary para1">paypal</p>
+                    <p class="text-secondary para1">Bank Account</p>
+                </div>
+                <div class="top4" style="margin-bottom:0px">
+                    <h1 class="text-secondary para3">Sell Coins</h1>
+                    <p class="text-secondary para1" style="align-self:flex-start"><i class="fa fa-trademark" aria-hidden="true"></i></p>
+                </div>
+                <div class="top4" style="margin-top:0px">
+                    <select class="form-control" style="width:100px">
+                        <option>0</option>
+                        <option>10000</option>
+                    </select>
+                    <button class="btn btn-primary" style="margin-left:10px;width:100px">Sell</button>
+                </div>
+            </div>
+        </div>
+        <div class="card m-2 shadow">
+            <h5 class="card-header bg">Investments</h5>
+            <div class="card-body">
+                <div class="top2" style="width:200px">
+                    <p class="text-secondary para1">Invested</p>
+                    <p class="text-secondary para1">:</p>
+                    <p class="para" style="text-decoration:none">$20.00</p>
+                </div>
+                <div class="top2" style="width:200px">
+                    <h1 class="para1 text-secondary">Contributed</h1>
+                    <p class="text-secondary para1">:</p>
+                    <p class="para" style="text-decoration:none">$20.00</p>
+                </div>
+            </div>
+        </div>
+        <div class="can">
+            <h1 class="head">Available Assets</h1>
+            <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=141a5375-8ddc-46ee-9cc1-e99586764086&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" class="Image3 shadow" />
+            <h1 class="head">Potential Covid-19 Cure: Clinical Trial</h1>
+            <p class="para2" style="margin-bottom:0px">Description:</p>
+            <p class="para2">A well known, safe, generic medication that has been used for decades has been shown to....</p>
+        </div>
+        <hr class="line2">
+        <div class="can">
+            <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=09206ba6-d322-49ac-81f2-c6cb7a12c590&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" class="Image3 shadow" />
+            <h1 class="head">Missson <i class="fa fa-usd ml-2 text-success" aria-hidden="true"></i></h1>
+            <p class="para2" style="margin-bottom:0px">Description:</p>
+            <p class="para2">Ownership in Minuteman is decentralized and distributed democratically across its base of...</p>
+        </div>
+        <hr class="line2">
+        <div class="can">
+            <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=2de429f8-c7eb-4152-a815-c87fad4a5f98&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" class="Image3 shadow" />
+            <h1 class="head">20922 Avalon Drive</h1>
+            <p class="para2" style="margin-bottom:0px">Address:</p>
+            <p class="para2">8801 Holly Road Tullahoma, TN 37388</p>
+        </div>
+        <hr class="line2">
+        <div class="can">
+            <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=f5a3cdef-4d06-4c86-b4af-75d2fd76366f&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" class="Image3 shadow" />
+            <h1 class="head">17456 Eastgate Drive</h1>
+            <p class="para2" style="margin-bottom:0px">Address:</p>
+            <p class="para2">23 North Briawood Avenue Williamsburg, VA 23185</p>
+        </div>
+        <hr class="line2">
+        <h1 class="head m-2">Recent Transaction</h1>
+        <div class="mainCard shadow">
+            <div style="display:flex">
+                <p class="para2" style="margin-left:15px">Date</p>
+                <p class="para2" style="margin-left:70px;margin-right:20px">:</p>
+                <p class="para2">09 Mar, 2020</p>
+            </div>
+            <div style="display:flex">
+                <p class="para2" style="margin-left:15px">Transaction</p>
+                <p class="para2" style="margin-left:28px;margin-right:20px">:</p>
+                <p class="para2">20922 Avalon Drive (Jon Hea...)</p>
+            </div>
+            <h1 class="head" style="font-style:italic;align-self:flex-end">-Dividend</h1>
+            <div style="display:flex">
+                <p class="para2" style="margin-left:15px">Amount</p>
+                <p class="para2" style="margin-left:50px;margin-right:20px">:</p>
+                <p class="para2 text-success">$10</p>
+            </div>
+        </div>
+        <div class="mainCard shadow">
+            <div style="display:flex">
+                <p class="para2" style="margin-left:15px">Date</p>
+                <p class="para2" style="margin-left:70px;margin-right:20px">:</p>
+                <p class="para2">09 Mar, 2020</p>
+            </div>
+            <div style="display:flex">
+                <p class="para2" style="margin-left:15px">From</p>
+                <p class="para2" style="margin-left:68px;margin-right:20px">:</p>
+                <p class="para2">Robert D.</p>
+            </div>
+            <h1 class="head" style="font-style:italic;align-self:flex-end">-Dividend</h1>
+            <div style="display:flex">
+                <p class="para2" style="margin-left:15px">Freedom Coins</p>
+                <p class="para2" style="margin-left:10px;margin-right:20px">:</p>
+                <p class="para2 text-success">100</p>
+            </div>
+        </div>
+        <div class="mainCard shadow">
+            <div style="display:flex">
+                <p class="para2" style="margin-left:15px">Date</p>
+                <p class="para2" style="margin-left:70px;margin-right:20px">:</p>
+                <p class="para2">09 Mar, 2020</p>
+            </div>
+            <div style="display:flex">
+                <p class="para2" style="margin-left:15px">From</p>
+                <p class="para2" style="margin-left:68px;margin-right:20px">:</p>
+                <p class="para2">Robert D.</p>
+            </div>
+            <h1 class="head" style="font-style:italic;align-self:flex-end">-Dividend</h1>
+            <div style="display:flex">
+                <p class="para2" style="margin-left:15px">Freedom Coins</p>
+                <p class="para2" style="margin-left:10px;margin-right:20px">:</p>
+                <p class="para2 text-success">100</p>
+            </div>
+        </div>
+        <div class="mainCard shadow">
+            <div style="display:flex">
+                <p class="para2" style="margin-left:15px">Date</p>
+                <p class="para2" style="margin-left:70px;margin-right:20px">:</p>
+                <p class="para2">09 Mar, 2020</p>
+            </div>
+            <div style="display:flex">
+                <p class="para2" style="margin-left:15px">From</p>
+                <p class="para2" style="margin-left:68px;margin-right:20px">:</p>
+                <p class="para2">Robert D.</p>
+            </div>
+            <h1 class="head" style="font-style:italic;align-self:flex-end">-Dividend</h1>
+            <div style="display:flex">
+                <p class="para2" style="margin-left:15px">Freedom Coins</p>
+                <p class="para2" style="margin-left:10px;margin-right:20px">:</p>
+                <p class="para2 text-success">100</p>
+            </div>
+        </div>
+        <div class="mainCard shadow">
+            <div style="display:flex">
+                <p class="para2" style="margin-left:15px">Date</p>
+                <p class="para2" style="margin-left:70px;margin-right:20px">:</p>
+                <p class="para2">09 Mar, 2020</p>
+            </div>
+            <div style="display:flex">
+                <p class="para2" style="margin-left:15px">From</p>
+                <p class="para2" style="margin-left:68px;margin-right:20px">:</p>
+                <p class="para2">Robert D.</p>
+            </div>
+            <h1 class="head" style="font-style:italic;align-self:flex-end">-Dividend</h1>
+            <div style="display:flex">
+                <p class="para2" style="margin-left:15px">Freedom Coins</p>
+                <p class="para2" style="margin-left:10px;margin-right:20px">:</p>
+                <p class="para2 text-success">100</p>
+            </div>
+        </div>
+        <div class="mainCard shadow">
+            <div style="display:flex">
+                <p class="para2" style="margin-left:15px">Date</p>
+                <p class="para2" style="margin-left:70px;margin-right:20px">:</p>
+                <p class="para2">09 Mar, 2020</p>
+            </div>
+            <div style="display:flex">
+                <p class="para2" style="margin-left:15px">From</p>
+                <p class="para2" style="margin-left:68px;margin-right:20px">:</p>
+                <p class="para2">Robert D.</p>
+            </div>
+            <h1 class="head" style="font-style:italic;align-self:flex-end">-Dividend</h1>
+            <div style="display:flex">
+                <p class="para2" style="margin-left:15px">Freedom Coins</p>
+                <p class="para2" style="margin-left:10px;margin-right:20px">:</p>
+                <p class="para2 text-success">100</p>
+            </div>
+        </div>
+        <h1 class="head" style="text-align:center">View More</h1>
+    </div>
+    <div id="section2">
+        <div class="bg1">
+            <div class="top4" style="align-self:center">
+                <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=1?component_id=4d922ade-2482-445c-b61c-e09c39895d29&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" class="w-70" />
+            </div>
+            <div>
+                <i class="fa fa-times text-white" style="font-size:20px;margin:15px" aria-hidden="true" onclick="display('section1')"></i>
+            </div>
+            <ul class="unorder">
+                <div class="top4 impp bg-white">
+                    <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=d27d15eb-1390-41d3-be5e-69e08a89bf09&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" />
+                    <h1 class="head2">Wallet</h1>
+                </div>
+                <div class="top4 impp m-1">
+                    <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=1d2dee45-0510-4a6c-8867-f74e35ab51e8&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" />
+                    <h1 class="head2 text-white">Wolfpacks</h1>
+                </div>
+                <div class="top4 impp m-1">
+                    <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=30894113-f90b-49e0-af69-db2e0427e0ca&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" />
+                    <h1 class="head2 text-white">Portfolio</h1>
+                </div>
+                <div class="top4 impp m-1">
+                    <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=9ab06e63-4a96-4a18-9e5d-c61447892003&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" />
+                    <h1 class="head2 text-white">Transparency</h1>
+                </div>
+                <div class="top4 impp m-1">
+                    <img src="https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:0b253f3a-0e0b-495d-8074-fc5424089a10;revision=0?component_id=c8eb4479-89a3-4fe8-b357-3f4136b85aa1&api_key=CometServer1&access_token=1618850651_urn%3Aaaid%3Asc%3AUS%3A0b253f3a-0e0b-495d-8074-fc5424089a10%3Bpublic_0abcc33f211269d5d3ac026056c419aaba99f1fd" />
+                    <h1 class="head2 text-white">All Properties</h1>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div id="section3">
+        <div class="bg2 bg-white p-3">
+            <div style="align-self:flex-end">
+                <i class="fa fa-times text-dark" style="font-size:20px;margin:15px" aria-hidden="true" onclick="display('section1')"></i>
+            </div>
+            <div class="top4 impp m-1">
+                <i class="fa fa-user text-dark" aria-hidden="true"></i>
+                <h1 class="head2 text-dark">Profile</h1>
+            </div>
+            <hr class="line2" />
+            <div class="top4 impp m-1">
+                <i class="fa fa-id-card-o text-dark" aria-hidden="true"></i>
+                <h1 class="head2 text-dark">Update Account</h1>
+            </div>
+            <hr class="line2" />
+            <div class="top4 impp m-1">
+                <i class="fa fa-power-off text-dark" aria-hidden="true"></i>
+                <h1 class="head2 text-dark">Log Out</h1>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
